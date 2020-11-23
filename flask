@@ -1,0 +1,7 @@
+from flask import Flask
+app=Flask(_name_)
+@app.route("/")
+def index():
+return '<h1>Hello World!,This is my fist flask web app</h1>'
+if_name_=="_main_"
+app.run(debug=True)
